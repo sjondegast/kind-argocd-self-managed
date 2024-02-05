@@ -1,12 +1,11 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  creationTimestamp: null
-  labels:
-    app.kubernetes.io/managed-by: argocd-autopilot
-    app.kubernetes.io/name: argo-cd
   name: argo-cd
   namespace: argocd
+  labels:
+    app.kubernetes.io/managed-by: argocd
+    app.kubernetes.io/name: argo-cd
 spec:
   destination:
     namespace: argocd
@@ -18,7 +17,7 @@ spec:
     kind: Application
   project: default
   source:
-    path: bootstrap/argo-cd
+    path: argo-self-managed/bootstrap/argo-cd
     repoURL: https://github.com/sjondegast/kind-argocd-self-managed.git
   syncPolicy:
     automated:
@@ -27,12 +26,3 @@ spec:
       selfHeal: true
     syncOptions:
     - allowEmpty=true
-status:
-  health: {}
-  summary: {}
-  sync:
-    comparedTo:
-      destination: {}
-      source:
-        repoURL: ""
-    status: ""
