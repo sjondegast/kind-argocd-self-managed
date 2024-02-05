@@ -10,3 +10,6 @@
 [submodule "vendor/gitops-playground"]
 	path = vendor/gitops-playground
 	url = https://github.com/cloudogu/gitops-playground.git
+[submodule "vendor/ArgoCD-in-Practice"]
+	path = vendor/ArgoCD-in-Practice
+	url = https://github.com/PacktPublishing/ArgoCD-in-Practice.git
