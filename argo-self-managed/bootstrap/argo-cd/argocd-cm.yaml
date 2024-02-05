@@ -5,3 +5,19 @@ metadata:
   labels:
     app.kubernetes.io/name: argocd-cm
     app.kubernetes.io/part-of: argocd
+data:
+  # Configuration to add a config management plugin.
+  configManagementPlugins: |
+    - name: kustomized-helm
+      init:
+        command: ["/bin/sh", "-c"]
+        args: ["helm dependency build"]
+      generate:
+        command: [sh, -c]
+        args: ["helm template --release-name release-name . > all.yaml && kustomize build"]
+
+  # A set of settings that allow enabling or disabling the config management tool.
+  # If unset, each defaults to "true".
+  kustomize.enabled: "true"
+  jsonnet.enabled: "true"
+  helm.enabled: "true"
