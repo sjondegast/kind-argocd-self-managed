@@ -5,6 +5,9 @@ metadata:
   namespace: argocd
 spec:
   project: default
+  destination:
+    namespace: default
+    server: https://kubernetes.default.svc
   source:
     repoURL: https://github.com/argoproj/argocd-example-apps.git
     targetRevision: HEAD
