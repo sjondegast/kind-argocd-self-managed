@@ -3,17 +3,20 @@
 - [x] Test if updating argoCD using self managed argocd application.yaml works.
 `argo-self-managed/bootstrap/argo-cd/kustomization.yaml`
 - [x] Create application.yaml file for projects folder to automatically pick up all projects in that folder: `argo-self-managed/bootstrap/argocd-projects.yaml`
+- [ ] [Setup ArgoCD argocd-image-updater](https://github.com/argoproj-labs/argocd-image-updater/blob/master/docs/install/installation.md)
 - [ ] Add multiple applications, diff kinds of resources from the argo-cd repo: `https://github.com/argoproj/argocd-example-apps.git`
 - [ ] Add multiple projects and test multiple applications in context with that project
 - [ ] Refactor Current Setup
   - [ ] Restructure kustomizations inside `argo-self-managed/bootstrap/argo-cd` folder, using `patches/` and `resources/`.
   - [ ] Research and Refactor Current setup using [examples openshift gitops github repo](https://github.com/redhat-developer-demos/openshift-gitops-examples/tree/main)
-- [ ] [Setup ArgoCD argocd-image-updater](https://github.com/argoproj-labs/argocd-image-updater/blob/master/docs/install/installation.md)
+  
 - [ ] Configure ArgoCD using configmaps, values set via helm charts/values.yaml but using kustomized installation
 - [ ] Create secrets for gitlab and link it using token
 - [ ] Design argo-cd setup using openshift docs and github example repo
 - [ ] argo-cd argocd-notifications-cm
-<!-- - [ ] https://github.com/PacktPublishing/ArgoCD-in-Practice/blob/main/ch04/kustomize-installation/argocd-app.yaml -->
+
+https://github.com/PacktPublishing/ArgoCD-in-Practice/blob/main/ch04/kustomize-installation/argocd-app.yaml
+
 ## Research how to refactor argocd kustomization setup
 
 - [example argocd](https://github.com/argoproj/argoproj-deployments/tree/master/argoproj)
