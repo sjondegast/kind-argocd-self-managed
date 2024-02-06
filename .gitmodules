@@ -13,3 +13,6 @@
 [submodule "vendor/ArgoCD-in-Practice"]
 	path = vendor/ArgoCD-in-Practice
 	url = https://github.com/PacktPublishing/ArgoCD-in-Practice.git
+[submodule "vendor/kustomize"]
+	path = vendor/kustomize
+	url = https://github.com/kubernetes-sigs/kustomize.git
