@@ -28,3 +28,8 @@ cd argo-self-managed/bootstrap
 # Apply argoCD CRD projects, applications incl argoCD application
 kubectl apply -f . # This will not pickup the folders inside that directory
 ```
+
+## Resources
+
+- https://medium.com/devopsturkiye/self-managed-argo-cd-app-of-everything-a226eb100cf0
+- https://medium.com/devopsturkiye/self-managed-argo-cd-app-of-everything-a226eb100cf0
