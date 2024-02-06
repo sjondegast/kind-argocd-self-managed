@@ -22,3 +22,23 @@ data:
   kustomize.enabled: "true"
   jsonnet.enabled: "true"
   helm.enabled: "true"
+
+additionalApplications:
+  - name: argocd-apps
+    namespace: argocd
+    destination:
+      namespace: argocd
+      server: https://kubernetes.default.svc
+    # project: argocd
+    project: default
+    source:
+      path: argocd-apps
+      repoURL: https://github.com/kurtburak/argocd.git
+      targetRevision: HEAD
+      directory:
+        recurse: true
+        jsonnet: {}
+    syncPolicy:
+      automated:
+        selfHeal: true
+        prune: true
