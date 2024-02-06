@@ -2,6 +2,7 @@
 
 - [link github](https://github.com/argoproj-labs/argocd-image-updater/blob/master/docs/install/installation.md)
 - [argoproj-deployments, argocd-image-updater github ks example](https://github.com/argoproj/argoproj-deployments/blob/master/argocd-image-updater/kustomization.yaml)
+- https://github.com/argoproj/argo-cd/blob/v2.9.6/examples/plugins/helm/kustomization.yaml
 
 ## Installation methods
 
