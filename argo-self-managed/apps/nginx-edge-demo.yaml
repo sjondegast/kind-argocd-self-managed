@@ -1,0 +1,16 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: nginx-edge
+  namespace: argocd
+spec:
+  destination:
+    namespace: default
+    server: https://kubernetes.default.svc
+  project: sample-project
+  source:
+    path: manifests
+    repoURL: https://github.com/kgamanji/kube-edge-argocd-demo
+    targetRevision: HEAD
+  syncPolicy:
+    automated: {}
