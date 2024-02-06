@@ -16,3 +16,12 @@
 [submodule "vendor/kustomize"]
 	path = vendor/kustomize
 	url = https://github.com/kubernetes-sigs/kustomize.git
+[submodule "vendor/argoapplicationsets"]
+	path = vendor/argoapplicationsets
+	url = https://github.com/a1tan/argoapplicationsets.git
+[submodule "vendor/testautopilot"]
+	path = vendor/testautopilot
+	url = https://github.com/a1tan/testautopilot.git
+[submodule "vendor/Modern-DevOps-Practices-2e"]
+	path = vendor/Modern-DevOps-Practices-2e
+	url = https://github.com/PacktPublishing/Modern-DevOps-Practices-2e.git
