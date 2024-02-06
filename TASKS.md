@@ -11,6 +11,7 @@
 - [ ] Configure ArgoCD using configmaps, values set via helm charts/values.yaml but using kustomized installation
 - [ ] Create secrets for gitlab and link it using token
 - [ ] Design argo-cd setup using openshift docs and github example repo
+- [ ] argo-cd argocd-notifications-cm
 <!-- - [ ] https://github.com/PacktPublishing/ArgoCD-in-Practice/blob/main/ch04/kustomize-installation/argocd-app.yaml -->
 ## Research how to refactor argocd kustomization setup
 
