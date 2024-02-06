@@ -25,3 +25,15 @@
 [submodule "vendor/Modern-DevOps-Practices-2e"]
 	path = vendor/Modern-DevOps-Practices-2e
 	url = https://github.com/PacktPublishing/Modern-DevOps-Practices-2e.git
+[submodule "vendor/argocd-tutorial-redhat"]
+	path = vendor/argocd-tutorial-redhat
+	url = https://github.com/redhat-scholars/argocd-tutorial.git
+[submodule "vendor/openshift-gitops-examples"]
+	path = vendor/openshift-gitops-examples
+	url = https://github.com/redhat-developer-demos/openshift-gitops-examples.git
+[submodule "vendor/argocd-image-updater"]
+	path = vendor/argocd-image-updater
+	url = https://github.com/argoproj-labs/argocd-image-updater.git
+[submodule "vendor/argocd-example-apps"]
+	path = vendor/argocd-example-apps
+	url = https://github.com/argoproj/argocd-example-apps.git

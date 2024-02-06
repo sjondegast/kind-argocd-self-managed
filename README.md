@@ -48,6 +48,8 @@ kubectl apply -f . # This will not pickup the folders inside that directory
 
 ## TODO
 
+- https://redhat-scholars.github.io/argocd-tutorial/argocd-tutorial/index.html
+- https://redhat-scholars.github.io/argocd-tutorial/argocd-tutorial/04-syncwaves-hooks.html
 - https://argo-cd.readthedocs.io/en/stable/operator-manual/app-any-namespace/
 - https://argo-cd.readthedocs.io/en/stable/operator-manual/reconcile/#reconcile-optimization
 - https://argo-cd.readthedocs.io/en/stable/operator-manual/webhook/
@@ -64,3 +66,5 @@ kubectl apply -f . # This will not pickup the folders inside that directory
 - https://cloudogu.com/en/blog/gitops-repository-patterns-part-3-repository-patterns#monorepo
 - https://github.com/PacktPublishing/Modern-DevOps-Practices-2e/blob/main/ch12/environments-argocd-app/manifests/argocd/apps.yaml
 - https://argo-cd.readthedocs.io/en/stable/operator-manual/cluster-bootstrapping/
+- https://github.com/redhat-scholars/argocd-tutorial.git
+- https://www.redhat.com/en/topics/devops/what-is-gitops
