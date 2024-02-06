@@ -1,5 +1,7 @@
 # README.md
 
+## Setup Development Cluster with Kind
+
 ```sh
 # Start kind cluster to test, 1 master + 3x worker nodes
 # Kind Configuration: tools/kind-cluster/kind-config.yaml
