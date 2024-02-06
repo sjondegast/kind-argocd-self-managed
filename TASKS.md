@@ -7,6 +7,7 @@
 - [ ] Add multiple projects and test multiple applications in context with that project
 - [ ] Refactor Current Setup
   - [ ] Restructure kustomizations inside `argo-self-managed/bootstrap/argo-cd` folder, using `patches/` and `resources/`.
+  - [ ] Research and Refactor Current setup using [examples openshift gitops github repo](https://github.com/redhat-developer-demos/openshift-gitops-examples/tree/main)
 - [ ] [Setup ArgoCD argocd-image-updater](https://github.com/argoproj-labs/argocd-image-updater/blob/master/docs/install/installation.md)
 - [ ] Configure ArgoCD using configmaps, values set via helm charts/values.yaml but using kustomized installation
 - [ ] Create secrets for gitlab and link it using token
