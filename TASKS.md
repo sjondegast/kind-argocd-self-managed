@@ -4,6 +4,8 @@
 `argo-self-managed/bootstrap/argo-cd/kustomization.yaml`
 - [x] Create application.yaml file for projects folder to automatically pick up all projects in that folder: `argo-self-managed/bootstrap/argocd-projects.yaml`
 - [ ] [Setup ArgoCD argocd-image-updater](https://github.com/argoproj-labs/argocd-image-updater/blob/master/docs/install/installation.md)
+  - [ ] Install by adding it to ks resources: `argo-self-managed/bootstrap/argo-cd/kustomization.yaml`
+  - [ ] Implement the image updater inside application **need a working gitlab repo with images inside the registry**
 - [ ] Add multiple applications, diff kinds of resources from the argo-cd repo: `https://github.com/argoproj/argocd-example-apps.git`
 - [ ] Add multiple projects and test multiple applications in context with that project
 - [ ] Refactor Current Setup
