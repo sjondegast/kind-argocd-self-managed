@@ -13,4 +13,8 @@ spec:
     repoURL: https://github.com/kgamanji/kube-edge-argocd-demo
     targetRevision: HEAD
   syncPolicy:
-    automated: {}
+    syncOptions:
+    - CreateNamespace=true
+    automated:
+      prune: true
+      selfHeal: true
