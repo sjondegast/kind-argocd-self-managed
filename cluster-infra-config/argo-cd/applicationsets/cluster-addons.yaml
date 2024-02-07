@@ -22,7 +22,7 @@ spec:
     metadata:
       name: '{{.path.basename}}'
     spec:
-      project: default
+      project: cluster-addons
       source:
         repoURL: https://github.com/sjondegast/kind-argocd-self-managed.git
         targetRevision: HEAD
