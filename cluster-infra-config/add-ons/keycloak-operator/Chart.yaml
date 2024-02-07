@@ -1,0 +1,12 @@
+apiVersion: v2
+name: keycloak
+description: Helm chart with keycloak as subchart
+type: application
+version: 18.3.0
+appVersion: "23.0.4"
+dependencies:
+  - name: keycloak
+    version: 18.3.0
+    repository: https://charts.bitnami.com/bitnami
+    alias: keycloak
+    # condition: keycloak.enabled

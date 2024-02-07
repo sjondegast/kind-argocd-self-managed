@@ -14,10 +14,6 @@ spec:
       revision: HEAD
       directories:
       - path: cluster-infra-config/add-ons/*
-      # - exclude: true
-      #   path: applicationset/git-generator-directory/cluster-addons/cert-manager
-      # - exclude: true
-      #   path: applicationset/git-generator-directory/cluster-addons/keycloak-operator
   template:
     metadata:
       name: '{{.path.basename}}'
