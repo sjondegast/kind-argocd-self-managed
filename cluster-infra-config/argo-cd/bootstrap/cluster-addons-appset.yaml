@@ -14,6 +14,10 @@ spec:
       revision: HEAD
       directories:
       - path: cluster-infra-config/add-ons/*
+      - path: cluster-infra-config/add-ons/cert-manager
+        exclude: true
+      - path: cluster-infra-config/add-ons/keycloak-operator
+        exclude: true
   template:
     metadata:
       name: '{{.path.basename}}'
