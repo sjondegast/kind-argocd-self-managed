@@ -5,8 +5,8 @@ metadata:
   - resources-finalizer.argocd.argoproj.io
   labels:
     app.kubernetes.io/managed-by: argocd
-    app.kubernetes.io/name: argocd-projects
-  name: argocd-projects
+    app.kubernetes.io/name: argocd-applicationsets
+  name: argocd-applicationsets
   namespace: argocd
 spec:
   destination:
@@ -19,7 +19,7 @@ spec:
     kind: Application
   project: argocd
   source:
-    path: cluster-infra-config/argo-cd/projects
+    path: cluster-infra-config/argo-cd/applicationsets
     repoURL: https://github.com/sjondegast/kind-argocd-self-managed.git
   syncPolicy:
     automated:
