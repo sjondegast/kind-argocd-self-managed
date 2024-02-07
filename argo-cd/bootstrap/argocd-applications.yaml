@@ -19,7 +19,7 @@ spec:
     kind: Application
   project: default
   source:
-    path: argo-self-managed/apps
+    path: argo-cd/apps
     repoURL: https://github.com/sjondegast/kind-argocd-self-managed.git
   syncPolicy:
     automated:

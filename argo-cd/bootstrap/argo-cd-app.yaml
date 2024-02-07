@@ -17,7 +17,7 @@ spec:
     kind: Application
   project: default
   source:
-    path: argo-self-managed/bootstrap/argo-cd
+    path: argo-cd/bootstrap/argo-cd
     repoURL: https://github.com/sjondegast/kind-argocd-self-managed.git
   syncPolicy:
     automated:
