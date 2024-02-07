@@ -1,0 +1,11 @@
+apiVersion: v2
+name: grafana-operator
+description: Helm chart with grafana-operator as sub-chart
+version: 3.7.0
+appVersion: "5.6.0"
+dependencies:
+  - name: grafana-operator
+    version: 3.7.0
+    repository: https://charts.bitnami.com/bitnami
+    alias: grafana-operator
+    # condition: grafana-operator.enabled
