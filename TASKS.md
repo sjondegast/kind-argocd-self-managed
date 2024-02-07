@@ -25,14 +25,20 @@ https://github.com/PacktPublishing/ArgoCD-in-Practice/blob/main/ch04/kustomize-i
 
 - root/
   - argo-self-managed (rename to gitops?)
-    - apps
-    - bootstrap
+    - apps/
+    - bootstrap/
       - argo-cd (argocd)
+        - resources/
+          - namespace
+        - patches/
+          - configMap
+        - kustomize
       - plugins?
       - argocd-image-updater
         - kustomization.yaml
         - patches
         - resourses
+      - projects/
 
 ## Research how to refactor argocd kustomization setup
 
