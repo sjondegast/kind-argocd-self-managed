@@ -7,6 +7,7 @@ resources:
   - resources/namespace.yaml
   - https://raw.githubusercontent.com/argoproj/argo-cd/v2.9.6/manifests/install.yaml
   - https://raw.githubusercontent.com/argoproj-labs/argocd-image-updater/master/manifests/install.yaml # TODO: move this from kustomize, maybe to components folder?
+  - https://github.com/argoproj/argo-rollouts/releases/download/v1.1.1/install.yaml
 
 patches:
   - path: patches/argocd-cm.yaml
