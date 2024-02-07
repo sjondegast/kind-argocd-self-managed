@@ -17,7 +17,7 @@ spec:
     jsonPointers:
     - /status
     kind: Application
-  project: argocd
+  project: default
   source:
     path: cluster-infra-config/argo-cd/applications
     repoURL: https://github.com/sjondegast/kind-argocd-self-managed.git
